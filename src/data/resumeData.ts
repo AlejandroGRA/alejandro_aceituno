@@ -1,20 +1,20 @@
 export const resumeData = {
   header: {
-    name: "Alex Rodriguez",
-    title: "Senior Data Engineer",
-    email: "alex.rodriguez@email.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
-    linkedin: "https://linkedin.com/in/alexrodriguez",
-    github: "https://github.com/alexrodriguez"
+    name: "Alejandro Garcia Aceituno",
+    title: "Tech Lead Data Engineer",
+    email: "alejandro.gaceituno@hotmail.com",
+    phone: "+34 XXX XXX XXX",
+    location: "Madrid, Spain",
+    linkedin: "https://linkedin.com/in/alejandroaceituno",
+    github: "https://github.com/AlejandroGRA"
   },
   
   experience: [
     {
-      title: "Senior Data Engineer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2021 - Present",
+      title: "Tech Lead Data Engineer",
+      company: "Ayvens",
+      location: "Madrid, Spain",
+      period: "2020 - Present",
       description: [
         "Led the design and implementation of a real-time data pipeline processing 50M+ events daily using Apache Kafka and Apache Spark",
         "Architected and deployed cloud-based data warehouse on AWS Redshift, reducing query response time by 60%",
