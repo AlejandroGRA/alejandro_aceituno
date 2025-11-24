@@ -3,7 +3,6 @@ export const resumeData = {
     name: "Alejandro Garcia Aceituno",
     title: "Tech Lead Data Engineer",
     email: "alejandro.gaceituno@hotmail.com",
-    phone: "+34 XXX XXX XXX",
     location: "Madrid, Spain",
     linkedin: "https://linkedin.com/in/alejandroaceituno",
     github: "https://github.com/AlejandroGRA"
