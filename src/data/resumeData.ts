@@ -10,163 +10,185 @@ export const resumeData = {
   
   experience: [
     {
-      title: "Tech Lead Data Engineer",
+      title: "Tech Lead & Data Engineer",
       company: "Ayvens",
       location: "Madrid, Spain",
-      period: "2020 - Present",
+      period: "July 2024 - Present",
       description: [
-        "Led the design and implementation of a real-time data pipeline processing 50M+ events daily using Apache Kafka and Apache Spark",
-        "Architected and deployed cloud-based data warehouse on AWS Redshift, reducing query response time by 60%",
-        "Developed automated ETL processes using Python and Apache Airflow, improving data processing efficiency by 40%",
-        "Collaborated with cross-functional teams to establish data governance policies and ensure data quality standards",
-        "Mentored junior data engineers and conducted technical interviews for new team members"
+        "Led the end-to-end architecture and deployment of private Azure infrastructures for new projects, including Databricks, Data Factory, WebApps, virtual networks, and secure connectivity (private endpoints).",
+        "Established development standards and governance, defining coding guidelines, Git branching policies, PR workflows, JIRA criteria, and security best practices across the department.",
+        "Improved code quality and maintainability, reviewing pull requests, supporting developers, implementing SonarQube across all repositories, and enhancing existing PySpark and ADF solutions.",
+        "Built CI/CD pipelines in Azure DevOps to automate ADF deployments from Development to UAT and Production using Pipelines, Releases and PowerShell tasks.",
+        "Managed critical incidents and cross-team coordination, while communicating project progress to the executive board in English and delivering internal presentations on new processes and implementations."
       ],
-      technologies: ["Python", "Apache Spark", "Apache Kafka", "AWS", "Redshift", "Apache Airflow", "Docker", "Kubernetes"]
+      technologies: ["Pyspark", "Databricks", "Azure", "SQL Server", "Azure Data Factory", "Azure DevOps", "Git", "VM", "Key Vault", "Virtual Networks"]
     },
     {
-      title: "Data Engineer",
-      company: "DataFlow Inc.",
-      location: "Austin, TX",
-      period: "2019 - 2021",
+      title: "Cloud Data Engineer",
+      company: "Ayvens",
+      location: "Madrid, Spain",
+      period: "November 2020 - July 2024",
       description: [
-        "Built and maintained data pipelines for machine learning models using Python and Apache Beam",
-        "Optimized SQL queries and database performance, resulting in 30% faster data retrieval",
-        "Implemented data validation and monitoring systems using Great Expectations framework",
-        "Worked with stakeholders to define data requirements and deliver analytics solutions"
+        "Optimized large-scale data pipelines, reducing ingestion processes from 10 hours to 20 minutes by redesigning ETL workflows using Azure Databricks and modern engineering patterns",
+        "Designed and implemented scalable data solutions with Databricks, Spark, Delta Lake and SQL, ensuring performance, reliability and strong Data Quality practices.",
+        "Applied engineering best practices and industry standards, improving code quality, maintainability and compliance across the data lifecycle.",
+        "Collaborated with cross-functional teams and stakeholders to translate business requirements into actionable data products and clear insights.",
+        "Built impactful Power BI dashboards and continuously explored new technologies to enhance team efficiency and drive innovation within the data engineering function."
       ],
-      technologies: ["Python", "Apache Beam", "SQL", "PostgreSQL", "Great Expectations", "Git", "Jenkins"]
+      technologies: ["Pyspark", "Databricks", "Azure", "Power BI", "Azure Data Factory", "Azure DevOps", "Git", "SQL", "Delta Lake", "Data Quality"]
     },
     {
-      title: "Junior Data Engineer",
-      company: "Analytics Pro",
-      location: "Seattle, WA",
-      period: "2018 - 2019",
+      title: "Data & Analytics Consultant",
+      company: "EY",
+      location: "Madrid, Spain",
+      period: "January 2020 - November 2021",
       description: [
-        "Developed data extraction scripts and automated data collection processes",
-        "Assisted in building data models and dimensional schemas for business intelligence",
-        "Participated in data quality assessment and implemented data cleaning procedures"
+        "Led and delivered data projects under Agile (Scrum), ensuring high-quality outcomes aligned with client needs across multiple high-profile engagements.",
+        "Coordinated development teams and worked hands-on with key Analytics technologies, including Python, ETL pipelines, Machine Learning models, Azure Cloud and data visualization tools.",
+        "Managed end-to-end analytics workflows, combining technical and functional perspectives to provide a comprehensive view of project execution.",
+        "Trained EY professionals as an internal Microsoft Power BI instructor, strengthening data literacy and adoption of analytical tools within the organization.",
+        "Enhanced productivity and time management skills by successfully balancing client work with a master’s program and additional university coursework."
       ],
-      technologies: ["Python", "SQL", "Pandas", "NumPy", "Jupyter", "Tableau"]
+      technologies: ["Python", "SQL", "Pandas", "NumPy", "Jupyter", "Power BI", "Docker", "Git", "Microservices"]
+    },
+    {
+      title: "Business Intelligence Analyst",
+      company: "BNP Paribas",
+      location: "Madrid, Spain",
+      period: "September 2018 - January 2020",
+      description: [
+        "Led the digitalization of Procurement and Facilities, delivering executive-level reporting and analytics using Microsoft Power BI Report Server and custom ETL processes built with Python (Pandas, NumPy) and VBA.",
+        "Identified and automated manual processes through Python Selenium, VBA and market tools, improving efficiency and driving measurable operational improvements.",
+        "Managed vendor evaluation and negotiations with international providers to implement new digital solutions aligned with business needs.",
+        "Drove cross-department digital transformation projects as a member of the BNP Paribas Innovation Committee, overseeing the full lifecycle from ideation to deployment and adoption."
+      ],
+      technologies: ["Python", "VBA", "SQL", "Pandas", "NumPy", "Power BI", "Selenium", "Git"]
     }
   ],
   
   skills: [
     {
       category: "Programming Languages",
-      skills: ["Python", "SQL", "Scala", "Java", "R", "Bash"]
+      skills: ["Python", "Pyspark", "Java", "Typescript", "React", "SQL", "Bash", "Powershell", "DAX"]
     },
     {
       category: "Big Data Technologies",
-      skills: ["Apache Spark", "Apache Kafka", "Apache Airflow", "Apache Beam", "Hadoop", "Hive"]
+      skills: ["Apache Spark", "Databricks", "Data Factory", "Delta Lake", "Data Lake", "Docker", "Apache Nifi"]
     },
     {
       category: "Cloud Platforms",
-      skills: ["AWS", "Google Cloud Platform", "Azure", "Databricks", "Snowflake"]
+      skills: ["Azure", "Databricks", "Azure Data Factory", "Azure DevOps"]
     },
     {
       category: "Databases",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Redshift"]
+      skills: ["PostgreSQL", "MySQL", "Elasticsearch"]
     },
     {
       category: "DevOps & Tools",
-      skills: ["Docker", "Kubernetes", "Git", "Jenkins", "Terraform", "Grafana"]
+      skills: ["Azure DevOps", "Git", "Docker", "Docker compose", "Terraform", "PowerShell", "Linux"]
     },
     {
       category: "Data Visualization",
-      skills: ["Tableau", "Power BI", "Grafana", "Plotly", "D3.js"]
+      skills: ["Tableau", "Power BI"]
     }
   ],
   
   education: [
     {
-      degree: "Master of Science in Data Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      period: "2016 - 2018",
-      gpa: "3.8/4.0",
+      degree: "Master of Science in Big Data Architecture",
+      institution: "KSchool",
+      location: "Madrid, Spain",
+      period: "2019 - 2020",
+      gpa: "8/10",
       relevantCoursework: [
-        "Machine Learning", "Big Data Analytics", "Database Systems", 
-        "Statistical Computing", "Data Mining", "Distributed Systems"
+            "Machine Learning", "Big Data Analytics", "Database Systems", 
+            "Statistical Computing", "Data Mining", "Distributed Systems"
       ]
     },
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      period: "2012 - 2016",
-      gpa: "3.6/4.0",
+      degree: "Master in Business Administration (MBA)",
+      institution: "thePower",
+      location: "Madrid, Spain",
+      period: "2019 - 2020",
+      gpa: "9.5/10",
       relevantCoursework: [
-        "Data Structures", "Algorithms", "Database Design", 
-        "Software Engineering", "Statistics", "Linear Algebra"
+            "Finance", "Marketing", "Strategy", "Leadership", "Business Intelligence", "Project Management"
       ]
-    }
+    },
+    {
+      degree: "Master in Business Intelligence and Analytics",
+      institution: "EAE Business School",
+      location: "Madrid, Spain",
+      period: "2018 - 2019",
+      gpa: "9/10",
+      relevantCoursework: [
+        "Data Visualization", "Data Warehousing", "Data Mining", "Data Modeling", "Data Quality", "Data Governance", "Machine Learning"
+      ]
+    },
+    {
+      degree: "Bachelor in Computer Engineering",
+      institution: "UOC",
+      location: "Madrid, Spain",
+      period: "2020 - Present",
+      gpa: "9.4/10",
+      relevantCoursework: [
+        "Object Oriented Programming", "Data Modelling", "Linux", "Shell", "Mathematics", "Digital Circuits"
+      ]
+    },
+    {
+      degree: "Bachelor in Business Administration",
+      institution: "UCLM",
+      location: "Talavera de la Reina, Spain",
+      period: "2012 - 2017",
+      gpa: "7.3/10",
+      relevantCoursework: [
+        "Finance", "Mathematics", "Statistics", "Marketing", "Operations"
+      ]
+    },
+    {
+      degree: "Bachelor in Telecommunications",
+      institution: "UPM",
+      location: "Madrid, Spain",
+      period: "2010 - 2012",
+      gpa: "Not finished",
+      relevantCoursework: [
+        "Calculus", "Algebra", "Programming", "Networks"
+      ]
+    },
   ],
   
   projects: [
     {
-      title: "Real-time Analytics Platform",
-      description: "Built a scalable real-time analytics platform processing streaming data from multiple sources, providing instant insights to business stakeholders.",
-      technologies: ["Apache Kafka", "Apache Spark", "Python", "AWS", "Docker"],
-      githubUrl: "https://github.com/alexrodriguez/realtime-analytics",
-      liveUrl: "https://analytics-demo.com",
+      title: "Healtek - Patient Data Monitoring",
+      description: "Healtek is a Docker application which represents an approach in how to implement a Big Data platform that can ingest, transform, load and serve patient data from an IoT device and generate near real-time alerts and dashboards based on metrics over that data.",
+      technologies: ["Docker", "Docker Compose", "Apache NiFi", "Mosquitto", "ELK stack", "Elasticsearch", "Kibana"],
+      githubUrl: "https://github.com/AlejandroGRA/healtek_patient_monitoring",
       highlights: [
-        "Processes 100M+ events per day with sub-second latency",
-        "Implemented fault-tolerant architecture with 99.9% uptime",
-        "Reduced data processing costs by 45% through optimization"
+        "Automatic phone push notifications",
+        "Real time monitoring of patients",
+        "Microservices architecture serving an IoT big data ETL pipeline"
       ]
     },
     {
-      title: "Data Quality Monitoring System",
-      description: "Developed an automated data quality monitoring system that detects anomalies and data drift in real-time using machine learning techniques.",
-      technologies: ["Python", "Apache Airflow", "Great Expectations", "MLflow", "PostgreSQL"],
-      githubUrl: "https://github.com/alexrodriguez/data-quality-monitor",
+      title: "Predicting health risks in Boston restaurants with Yelp ratings",
+      description: "Using scraping, crawling, ETL and Machine Learning techniques, we trained a predictive model with demographic data, health inspection data and restaurant ratings on Yelp to predict whether a restaurant would violate health regulations in the city of Boston.",
+      technologies: ["Python", "Pandas", "scikit-learn", "selenium", "beautifulsoap", "requests"],
+      githubUrl: "",
       highlights: [
-        "Reduced data quality issues by 70% through automated detection",
-        "Implemented custom anomaly detection algorithms",
-        "Integrated with existing data pipelines seamlessly"
-      ]
-    },
-    {
-      title: "Cloud Data Migration Tool",
-      description: "Created a comprehensive tool for migrating on-premises data warehouses to cloud platforms with zero downtime.",
-      technologies: ["Python", "AWS", "Terraform", "Docker", "Apache Airflow"],
-      githubUrl: "https://github.com/alexrodriguez/cloud-migration-tool",
-      highlights: [
-        "Successfully migrated 50+ TB of data with zero data loss",
-        "Automated schema conversion and data type mapping",
-        "Reduced migration time by 60% compared to manual processes"
+        "Predict percentage of 70%",
+        "Scraped the web simulating the navigation of multiple users",
+        "Transformed the data coming from different sources to train the model"
       ]
     }
   ],
   
   certifications: [
     {
-      name: "AWS Certified Data Analytics - Specialty",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-DAS-123456",
-      credentialUrl: "https://aws.amazon.com/verification"
-    },
-    {
-      name: "Google Cloud Professional Data Engineer",
-      issuer: "Google Cloud",
-      date: "2022",
-      credentialId: "GCP-PDE-789012",
-      credentialUrl: "https://cloud.google.com/certification"
-    },
-    {
-      name: "Databricks Certified Data Engineer Associate",
-      issuer: "Databricks",
-      date: "2022",
-      credentialId: "DB-CDE-345678",
-      credentialUrl: "https://databricks.com/certification"
-    },
-    {
-      name: "Apache Spark Developer Certification",
-      issuer: "Databricks",
+      name: "Microsoft Certified: Azure Fundamentals",
+      issuer: "Azure",
       date: "2021",
-      credentialId: "DB-SPARK-901234",
-      credentialUrl: "https://databricks.com/certification"
+      credentialId: "21e19c9d-ddd5-47dd-a47a-995a0bff1fd9",
+      credentialUrl: "https://www.credly.com/badges/21e19c9d-ddd5-47dd-a47a-995a0bff1fd9"
     }
   ]
 };
