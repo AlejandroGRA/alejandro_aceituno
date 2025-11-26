@@ -89,7 +89,7 @@ export const resumeData = {
     },
     {
       category: "Data Visualization",
-      skills: ["Tableau", "Power BI"]
+      skills: ["Power BI", "Tableau", "Kibana","matplotlib"]
     }
   ],
   
