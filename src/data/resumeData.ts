@@ -1,7 +1,7 @@
 export const resumeData = {
   header: {
     name: "Alejandro Garcia Aceituno",
-    title: "Tech Lead Data Engineer",
+    title: "Lead Data Engineer",
     email: "alejandro.gaceituno@hotmail.com",
     location: "Madrid, Spain",
     linkedin: "https://linkedin.com/in/alejandroaceituno",
@@ -10,7 +10,7 @@ export const resumeData = {
   
   experience: [
     {
-      title: "Tech Lead & Data Engineer",
+      title: "Lead Data Engineer",
       company: "Ayvens",
       location: "Madrid, Spain",
       period: "July 2024 - Present",
